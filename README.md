@@ -1,6 +1,6 @@
-# Sleepy web application starter template
+## Sleepy web application starter template
 
-## Introduction
+### Introduction
 
 This is a starter template for making your own web application based on Sleepy.
 
@@ -9,21 +9,21 @@ file and a couple of other parts, Bootstrap 3 as a front-end framework, jQuery a
 Require.js for Javascript. Of course, you are free to rip everything out and do
 your own thing. We don't judge.
 
-## Installation/Configuration
+### Installation/Configuration
 
 Applications based on the starter template can be installed just like any other
 PHP-based webpage. Assuming you've already set up your web-server to serve PHP
 files properly, simply copy the template into the appropriate directory and set
-the root to the "webroot" subdirectory.
+the root to the *"webroot"* subdirectory.
 
 To run requests against the server, you will need to assign the application an
-authorization key. Cecil creates a unique authkey along with the database when
+**authorization key**. Cecil creates a unique authkey along with the database when
 creating a new user, which can be used for authenticating an application.
-Otherwise, you can obtain an authkey by running "sleepyd user -a" on the server
+Otherwise, you can obtain an authkey by running ```sleepyd user -a``` on the server
 hosting the Sleepy server daemon.
 
-Once you have obtained an authkey, simply set it in the "authkey" field of the
-"config.php" configuration file, and you're good to go!
+Once you have obtained an authkey, simply set it in the *"authkey"* field of the
+**"config.php"** configuration file, and you're good to go!
 
 ## Documentation
 
