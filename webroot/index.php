@@ -3,8 +3,6 @@
  * Main index page.
  *
  * All requests should be handled from here on.
- *
- * @copyright Copyright <year>, <name>
  */
 
 if (!defined('APP_DIR')) {

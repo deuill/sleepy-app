@@ -1,10 +1,7 @@
 <?php
 /**
  * Main page controller for application.
- *
- * @copyright Copyright <year>, <name>
  */
-
 class MainController extends AppController {
 	// The models to load for this controller.
 	public $models = true;
